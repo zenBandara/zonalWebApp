@@ -1,0 +1,25 @@
+// Section: Elements
+.container {
+   max-width: 80rem;
+   width: 100%;
+   height: auto;
+   padding: 0 2rem;
+   margin: 0 auto;
+
+   @media only screen and (max-width: 992px) {
+      padding: 0 1rem;
+      margin: 0 auto;
+   }
+}
+
+.brand {
+   font-family: inherit;
+   font-size: 1.75rem;
+   font-weight: 700;
+   line-height: inherit;
+   color: $color-pink;
+   border: none;
+   outline: none;
+   text-transform: uppercase;
+   text-rendering: optimizeLegibility;
+}

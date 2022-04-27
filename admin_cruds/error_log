@@ -1,0 +1,13 @@
+[17-Apr-2022 05:22:35 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[17-Apr-2022 05:22:50 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[17-Apr-2022 05:22:53 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[17-Apr-2022 07:05:07 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[17-Apr-2022 07:05:57 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[25-Apr-2022 03:27:53 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/contentChanges_crud.php on line 167
+[25-Apr-2022 03:27:55 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/contentChanges_crud.php on line 167
+[25-Apr-2022 03:32:04 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/contentChanges_crud.php on line 167
+[25-Apr-2022 03:35:23 America/New_York] PHP Notice:  Undefined index: error_up in /home/katuenen/public_html/admin_cruds/article_crud.php on line 118
+[25-Apr-2022 03:35:35 America/New_York] PHP Notice:  Undefined variable: article in /home/katuenen/public_html/admin_cruds/manage_article.php on line 143
+[25-Apr-2022 03:57:14 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[25-Apr-2022 03:57:16 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172
+[25-Apr-2022 03:57:37 America/New_York] PHP Notice:  Undefined variable: img in /home/katuenen/public_html/admin_cruds/additional_crud.php on line 172

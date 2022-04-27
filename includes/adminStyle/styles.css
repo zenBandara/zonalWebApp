@@ -1,0 +1,172 @@
+a{
+    color: #f4623a;
+}
+.btn {
+    display: inline-block;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+ 
+  .btn:hover {
+    color: #212529;
+  }
+  .btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(244, 98, 58, 0.25);
+  }
+  .btn:disabled, .btn.disabled, fieldset:disabled .btn {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+  
+  .btn-admin {
+    color: #ffd400;
+    background-color: #661414;
+    border-color: #f4623a;
+  }
+
+  .btn-light {
+    color: #661414;
+    background-color: #fff;
+    border-color: #f4623a;
+  }
+  .btn-admin:hover {
+    color: #661414;
+    background-color: #ffd400;
+    border-color: #c34e2e;
+  }
+  .btn-light:hover {
+    color: #661414;
+    background-color: #ffd400;
+    border-color: #c34e2e;
+  }
+  .btn-check:focus + .btn-admin, .btn-admin:focus {
+    color: #fff;
+    background-color: #cf5331;
+    border-color: #c34e2e;
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  }
+  .btn-check:checked + .btn-admin, .btn-check:active + .btn-admin, .btn-admin:active, .btn-admin.active, .show > .btn-admin.dropdown-toggle {
+    color: #fff;
+    background-color: #c34e2e;
+    border-color: #b74a2c;
+  }
+  .btn-check:checked + .btn-admin:focus, .btn-check:active + .btn-admin:focus, .btn-admin:active:focus, .btn-admin.active:focus, .show > .btn-admin.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
+  }
+  .btn-admin:disabled, .btn-admin.disabled {
+    color: #fff;
+    background-color: #f4623a;
+    border-color: #f4623a;
+  }
+
+  .btn-xl {
+    padding: 1.25rem 2.25rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    
+  }
+
+  .btn-xxl {
+    padding: 1.35rem 2.35rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    width:100%;
+    
+    
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {
+    padding-top: 0;
+    margin-top: 0;
+    height: 100%;
+  }
+
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100vh;
+  }
+
+
+
+
+  /* On small screens, set height to 'auto' for the grid */
+  @media screen and (max-width: 767px) {
+    .row.content {
+      height: auto;
+    }
+
+    .m_frame {
+
+      padding-top: 0;
+    }
+
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+
+  }

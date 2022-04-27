@@ -1,0 +1,275 @@
+[17-Apr-2022 05:21:51 America/New_York] PHP Notice:  Undefined variable: id in /home/katuenen/public_html/user.php on line 107
+[17-Apr-2022 05:24:07 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:24:07 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:24:07 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:24:07 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:24:07 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:28 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:28 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 05:24:52 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 05:24:52 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 05:24:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 05:31:27 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:27 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:27 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:27 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:27 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:58 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:58 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:58 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:58 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:31:58 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:32:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:32:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:32:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:32:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 05:32:37 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 54
+[17-Apr-2022 06:16:59 America/New_York] PHP Notice:  Undefined variable: id in /home/katuenen/public_html/user.php on line 107
+[17-Apr-2022 06:39:53 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 06:39:53 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 06:39:53 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 06:39:53 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 06:39:53 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 06:42:32 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:32 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:32 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:32 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:33 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:33 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:33 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:33 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:38 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:44 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:44 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:46 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:46 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:46 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:51 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:51 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:51 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:51 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:42:52 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:42:52 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:52 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:42:52 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:00 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:00 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:10 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:10 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:14 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:14 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:14 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:14 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:15 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:15 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:15 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:15 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:21 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:21 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:21 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:21 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:22 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:22 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:22 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:22 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:59 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:43:59 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:46:03 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:46:03 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:03 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:03 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:46:04 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:46:04 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:04 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:04 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:31 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:46:31 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:48:46 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:48:46 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:48:46 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:48:46 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:48:47 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:48:47 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:48:47 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:48:47 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:50:37 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:50:37 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:37 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:37 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:50:38 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:50:38 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:38 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:38 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:50:50 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:50:50 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:50 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 06:50:56 America/New_York] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/katuenen/public_html/downloads_category.php on line 64
+[17-Apr-2022 06:50:56 America/New_York] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:56 America/New_York] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/katuenen/public_html/nav.php:12) in /home/katuenen/public_html/downloads_category.php on line 65
+[17-Apr-2022 06:50:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/katuenen/public_html/downloads_category.php:78
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/downloads_category.php on line 78
+[17-Apr-2022 07:03:02 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 07:03:02 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 07:03:02 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 07:03:02 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 07:03:02 America/New_York] PHP Notice:  Undefined variable: branch in /home/katuenen/public_html/divisional_info.php on line 83
+[17-Apr-2022 14:32:06 America/New_York] PHP Notice:  Undefined index: userId in /home/katuenen/public_html/php_action/core.php on line 9
+[17-Apr-2022 14:32:06 America/New_York] PHP Notice:  Undefined index: userRole in /home/katuenen/public_html/includes/header.php on line 170
+[17-Apr-2022 14:32:06 America/New_York] PHP Notice:  Undefined index: userId in /home/katuenen/public_html/setting.php on line 4
+[17-Apr-2022 14:32:06 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/katuenen/public_html/setting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/setting.php on line 7
+[25-Apr-2022 11:23:43 America/New_York] PHP Notice:  Undefined index: userId in /home/katuenen/public_html/php_action/core.php on line 9
+[25-Apr-2022 11:23:43 America/New_York] PHP Notice:  Undefined index: userRole in /home/katuenen/public_html/includes/header.php on line 170
+[25-Apr-2022 11:23:43 America/New_York] PHP Notice:  Undefined index: userId in /home/katuenen/public_html/setting.php on line 4
+[25-Apr-2022 11:23:43 America/New_York] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/katuenen/public_html/setting.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/katuenen/public_html/setting.php on line 7

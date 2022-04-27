@@ -1,0 +1,6 @@
+
+
+<svg viewBox="0 0 100vw 100vh" xmlns="http://www.w3.org/2000/svg" style="background-color:#e9ecef">
+  <rect y="360" width="100vw" height="100vh" rx="30" ry="30" style="fill: rgb(255, 212, 0);"/>
+  <rect y="380" width="100vw" height="100vh" rx="30" ry="30" style="fill: rgb(102, 20, 20);" />
+</svg>

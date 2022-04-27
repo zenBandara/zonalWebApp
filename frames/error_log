@@ -1,0 +1,2 @@
+[17-Apr-2022 05:23:33 America/New_York] PHP Notice:  Undefined index: userId in /home/katuenen/public_html/php_action/core.php on line 9
+[17-Apr-2022 05:23:33 America/New_York] PHP Notice:  Undefined index: userRole in /home/katuenen/public_html/includes/header.php on line 170
