@@ -12,6 +12,8 @@ if ($row_status['status'] == 1){
 
 ?>
 
+<!-- Comment from GIT********* -->
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
