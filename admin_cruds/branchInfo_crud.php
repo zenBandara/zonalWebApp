@@ -255,7 +255,7 @@ if (!isset($_SESSION['userId'])) {
                                 <li onclick="$('#planningModal').modal('show')" style="display: inline;">
                                     <a href="branchInfo_crud.php?edit=<?php echo $row['id'] ?>&br_name=<?php echo $row['branch_name'] ?>" class="btn btn-admin btn-xl" style="display: inline !important;">Edit</a>
                                 </li>
-                                <a href="process/branchInfo_process.php?delete=<?php echo $row['id'] ?>&br_name=<?php echo $row['branch_name'] ?>" class="btn btn-admin btn-xl" style="display: inline !important;" onclick="return confirm('Do you need to delete this item?')">Delete</a>
+                                <a href="/process/branchInfo_process.php?delete=<?php echo $row['id'] ?>&br_name=<?php echo $row['branch_name'] ?>" class="btn btn-admin btn-xl" style="display: inline !important;" onclick="return confirm('Do you need to delete this item?')">Delete</a>
                             </td>
                         </tr>
                     <?php endwhile; ?>
