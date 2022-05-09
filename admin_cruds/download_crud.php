@@ -339,14 +339,7 @@ if (!isset($_SESSION['userId'])) {
                 var fileType = e.target.files[0].type;
                 var fileSize = e.target.files[0].size;
                 var fileLocation = "Uploads/" + fileName;
-                if (fileType!="") {
-                    alert(fileType + "The file is not valid file - Try again!");
-                    $('#d_path').val('');
-                    document.getElementById("acfName").innerHTML = "";
-                    document.getElementById("acfType").innerHTML = "";
-                    document.getElementById("acfSize").innerHTML = "";
-                    document.getElementById("acfPath").innerHTML = "";
-                } else if (fileSize > 500000000) {
+                if (fileSize > 500000000) {
                     alert("Long file, You can't submit more than 500MB file - Try again!");
                     $('#d_path').val('');
                     document.getElementById("acfName").innerHTML = "";
