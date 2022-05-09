@@ -23,7 +23,7 @@ if ($row_status['status'] == 1){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="/includes/adminStyle/styles.css">
 
-    <title>Katu Zonal | We'll be Right Back!</title>
+    <title>Katugastota Zonal Education Ofiice | We'll be Right Back!</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
