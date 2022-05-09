@@ -373,7 +373,7 @@ if (!isset($_SESSION['userId'])) {
                                                 <?php
                                                 //con
 
-                                                $result_role = $mysqli->query("SELECT * from role WHERE category = 'Academic'") or die($mysqli->error);
+                                                $result_role = $mysqli->query("SELECT * from role WHERE category = 'Academic' or category = 'all' ") or die($mysqli->error);
                                                 ?>
                                                 <?php while ($row = $result_role->fetch_assoc()) : ?>
 
@@ -399,7 +399,7 @@ if (!isset($_SESSION['userId'])) {
                                                 <?php
                                                 //con
 
-                                                $result_subject = $mysqli->query("SELECT * from subject WHERE category = 'Academic'") or die($mysqli->error);
+                                                $result_subject = $mysqli->query("SELECT * from subject WHERE category = 'Academic'  or category = 'all' ") or die($mysqli->error);
                                                 ?>
                                                 <?php while ($row = $result_subject->fetch_assoc()) : ?>
 
