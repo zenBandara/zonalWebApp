@@ -1,8 +1,8 @@
 <?php
 
-require_once ($_SERVER['DOCUMENT_ROOT'] .'/php_action/db_connect_client.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/php_action/db_connect_client.php');
 ?>
-<?php require_once ($_SERVER['DOCUMENT_ROOT'] .'/process/staff_process.php'); 
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/process/staff_process.php');
 /* prevent direct url acsses */
 if (!isset($_SESSION['userId'])) {
     header('HTTP/1.0 403 Forbidden');
@@ -169,7 +169,7 @@ if (!isset($_SESSION['userId'])) {
 
                                             <img class="center" src="<?php
                                                                         if ($row['staff_img'] == "") {
-                                                                            echo "default/default_pic.jpg";
+                                                                            echo "/default/default_pic.jpg";
                                                                         } else {
                                                                             echo $row['staff_img'];
                                                                         }
@@ -249,7 +249,7 @@ if (!isset($_SESSION['userId'])) {
 
 
         </div>
-        
+
 
         <!-- Modal update and add -->
         <div class="modal fade" id="myModal" role="dialog">
@@ -292,6 +292,9 @@ if (!isset($_SESSION['userId'])) {
                                         <option value="Mr." <?php if ($acstaff_title == 'Mr.') {
                                                                 echo 'selected';
                                                             }  ?>>Mr.</option>
+                                        <option value="Dr." <?php if ($acstaff_title == 'Dr.') {
+                                                                echo 'selected';
+                                                            }  ?>>Dr.</option>
 
                                     </select>
                                 </div>
@@ -307,7 +310,7 @@ if (!isset($_SESSION['userId'])) {
                                         <option value="SLTC1" <?php if ($acstaff_grade == 'SLTC1') {
                                                                     echo 'selected';
                                                                 }  ?>>SLTC1</option>
-                                        <option value="ISLTC2" <?php if ($acstaff_grade == 'SLTC2') {
+                                        <option value="SLTC2" <?php if ($acstaff_grade == 'SLTC2') {
                                                                     echo 'selected';
                                                                 }  ?>>SLTC2</option>
 

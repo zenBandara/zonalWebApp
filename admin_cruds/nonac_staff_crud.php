@@ -1,9 +1,9 @@
 <?php
 
-require_once ($_SERVER['DOCUMENT_ROOT'] .'/php_action/db_connect_client.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/php_action/db_connect_client.php');
 ?>
 <?php
-require_once  ($_SERVER['DOCUMENT_ROOT'] .'/process/nonac_staff_process.php'); 
+require_once($_SERVER['DOCUMENT_ROOT'] . '/process/nonac_staff_process.php');
 
 /* prevent direct url acsses */
 if (!isset($_SESSION['userId'])) {
@@ -325,6 +325,9 @@ if (!isset($_SESSION['userId'])) {
                                         <option value="Mr." <?php if ($acstaff_title == 'Mr.') {
                                                                 echo 'selected';
                                                             }  ?>>Mr.</option>
+                                        <option value="Dr." <?php if ($acstaff_title == 'Dr.') {
+                                                                echo 'selected';
+                                                            }  ?>>Dr.</option>
 
                                     </select>
                                 </div>
@@ -508,7 +511,7 @@ if (!isset($_SESSION['userId'])) {
                                                 <?php
                                                 //con
 
-                                                $result_role = $mysqli->query("SELECT * from role WHERE category = 'Non-academic'") or die($mysqli->error);
+                                                $result_role = $mysqli->query("SELECT * from role WHERE category = 'Non-academic' or category = 'All' ") or die($mysqli->error);
                                                 ?>
                                                 <?php while ($row = $result_role->fetch_assoc()) : ?>
 
@@ -537,7 +540,7 @@ if (!isset($_SESSION['userId'])) {
                                                 <?php
                                                 //con
 
-                                                $result_subject = $mysqli->query("SELECT * from subject WHERE category = 'Non-academic'") or die($mysqli->error);
+                                                $result_subject = $mysqli->query("SELECT * from subject WHERE category = 'Non-academic' or category = 'All'") or die($mysqli->error);
                                                 ?>
                                                 <?php while ($row = $result_subject->fetch_assoc()) : ?>
 
@@ -574,10 +577,10 @@ if (!isset($_SESSION['userId'])) {
                                         <div class="form-group">
                                             <label>Upload image</label>
                                             <input type="file" name="acstaff_img" id="acstaff_img" style="border: 2px black solid;padding:10px;">
-                                            
+
                                             <p id="acfType"></p>
                                             <p id="acfSize"></p>
-                                            
+
                                         </div>
 
                                         <div class="form-group" id="optimize_list" style="visibility: hidden; border:2px solid #000; padding:1em; border-radius:1em;">
@@ -667,7 +670,7 @@ if (!isset($_SESSION['userId'])) {
                         $('#img_low_opt').prop('checked', true);
                         $('#img_low_opt').prop('disabled', false);
                         $('#img_high_opt').prop('disabled', false);
-                        
+
                     }
                 });
             });
