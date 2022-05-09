@@ -24,6 +24,26 @@ if ($row_status['status'] == 1){
     <link rel="stylesheet" href="/includes/adminStyle/styles.css">
 
     <title>Katugastota Zonal Education Ofiice | We'll be Right Back!</title>
+    <meta name="description" content=" We'll be Right Back! Welcome to the Zonal Education Office, Katugastota, Sri Lanka. The Zonal Education Office, Katugastota is facilitating supervision, education, and management over 122 government schools within 5 divisions in the Katugastota zone, Sri Lanka. The mission of the Zonal Education Office, Katugastota is to be Knowledgeable skilled individuals with the right attitudes to the globe. And the mission is to bestow a mother nation, a skilled, well-disciplined, humane student population and a satisfied teacher generation.">
+    <meta name="keywords" content="ZonalEdu, Zonal Katugastota, Zonal, Katugastota, Katugastota Zone, Katugastota Zonal">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open graph data -->
+    <meta name="og:title" property="og:title" content="Welcome to the Zonal Education Office, Katugastota, Sri Lanka">
+    <meta property="og:url" content="<?php echo $domain_name; ?>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Welcome to the Zonal Education Office, Katugastota, Sri Lanka. The Zonal Education Office, Katugastota is facilitating supervision, education, and management over 122 government schools within 5 divisions in the Katugastota zone, Sri Lanka. The mission of the Zonal Education Office, Katugastota is to be Knowledgeable skilled individuals with the right attitudes to the globe. And the mission is to bestow a mother nation, a skilled, well-disciplined, humane student population and a satisfied teacher generation." />
+    <meta property="og:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:title" content="Welcome to the Zonal Education Office, Katugastota, Sri Lanka" />
+    <meta name="twitter:card" content="Welcome to the Zonal Education Office, Katugastota, Sri Lanka. The Zonal Education Office, Katugastota is facilitating supervision, education, and management over 122 government schools within 5 divisions in the Katugastota zone, Sri Lanka. " />
+    <meta name="twitter:description" content="Welcome to the Zonal Education Office, Katugastota, Sri Lanka. The Zonal Education Office, Katugastota is facilitating supervision, education, and management over 122 government schools within 5 divisions in the Katugastota zone, Sri Lanka. The mission of the Zonal Education Office, Katugastota is to be Knowledgeable skilled individuals with the right attitudes to the globe. And the mission is to bestow a mother nation, a skilled, well-disciplined, humane student population and a satisfied teacher generation." />
+    <meta name="twitter:url" content="<?php echo $domain_name; ?>" />
+    <meta name="twitter:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
+
+
+
     <style>
         @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
