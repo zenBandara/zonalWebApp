@@ -444,9 +444,9 @@ if (!isset($_SESSION['userId'])) {
                                         <div class="form-group" id="optimize_list" style="visibility: hidden; border:2px solid #000; padding:1em; border-radius:1em;">
 
                                             <input type="radio" id="disable_opt" name="optimization" value="disable_opt" disabled>
-                                            <label> - Disable image optimization</label><br>
-                                            <input type="radio" id="img_low_opt" name="optimization" value="low_opt" disabled>
                                             <label> - Enable low image optimization</label><br>
+                                            <input type="radio" id="img_low_opt" name="optimization" value="low_opt" disabled>
+                                            <label> - Enable basic image optimization</label><br>
                                             <input type="radio" id="img_high_opt" name="optimization" value="high_opt" disabled>
                                             <label> - Enable higher image optimization</label>
                                         </div>
