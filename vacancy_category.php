@@ -91,9 +91,9 @@ if (isset($_GET['category'])) {
                                     </p>
                                     <div class="collapse" id="col<?php echo $row['id']; ?>" class="collapse" data-parent="#accordion" style="overflow:hidden;">
                                         <div class="card card-body">
-                                            <pre>
+                                            
                                                 <?php echo $row['content']; ?>
-                                            </pre>
+                                            
                                         </div>
                                     </div>
                                 </div>
