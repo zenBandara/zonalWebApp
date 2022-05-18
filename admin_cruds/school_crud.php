@@ -319,6 +319,9 @@ if (!isset($_SESSION['userId'])) {
                                         <option value="1-5" <?php if ($sch_grades == '1-5') {
                                                                 echo 'selected';
                                                             }  ?>>1-5</option>
+                                        <option value="6-11" <?php if ($sch_grades == '6-11') {
+                                                                echo 'selected';
+                                                            }  ?>>6-11</option>
 
                                     </select>
                                 </div>
