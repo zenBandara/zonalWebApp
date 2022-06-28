@@ -101,7 +101,7 @@ include_once('config_mains/main.php');
                             <div class="container card p-3 py-4 bg-primary text-light" style="width: 83vw;">
                                 <div class="center mt-3"> <img src="<?php
                                                                     if ($row['sch_img'] == "") {
-                                                                        echo "/default/default_pic.jpg";
+                                                                        echo "/default/default_school.png";
                                                                     } else {
                                                                         echo $row['sch_img'];
                                                                     }
