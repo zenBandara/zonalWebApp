@@ -171,7 +171,7 @@ if (!isset($_SESSION['userId'])) {
                             <td><?php echo $row['census_no']; ?></td>
                             <td><img src="<?php
                                             if ($row['sch_img'] == "") {
-                                                echo "default/default_pic.jpg";
+                                                echo "/default/default_school.png";
                                             } else {
                                                 echo $row['sch_img'];
                                             }
