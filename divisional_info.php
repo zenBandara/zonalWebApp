@@ -97,7 +97,7 @@
                         <div class="center"> <img src="
                         <?php
                                             if ($row_head['staff_img'] == "") {
-                                                echo "/default/default_school.png";
+                                                echo "/default/default_pic.jpg";
                                             } else {
                                                 echo $row_head['staff_img'];
                                             }
