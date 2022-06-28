@@ -95,7 +95,15 @@
                             <h5 class="text-white mt-0"><span style="color:#ffd400; text-transform:uppercase;"><?php echo $division_name; ?></span><br> DIVISION</h5>
                         </div>
                         <hr>
-                        <div class="center"> <img src="<?php echo $staff_img; ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($staff_img == "") {
+                                                echo "/default/default_pic.jpg";
+                                            } else {
+                                                echo $staff_img;
+                                            }
+
+                                            ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($staff_ava == 'Available') : ?>
@@ -220,7 +228,15 @@
                             <h5 class="text-white mt-0"><span style="color:#ffd400; text-transform:uppercase;"><?php echo $division_name; ?></span><br> DIVISION</h5>
                         </div>
                         <hr>
-                        <div class="center"> <img src="<?php echo $staff_img; ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($staff_img == "") {
+                                                echo "/default/default_pic.jpg";
+                                            } else {
+                                                echo $staff_img;
+                                            }
+
+                                            ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($staff_ava == 'Available') : ?>
@@ -346,7 +362,15 @@
                             <h5 class="text-white mt-0"><span style="color:#ffd400; text-transform:uppercase;"><?php echo $division_name; ?></span><br> DIVISION</h5>
                         </div>
                         <hr>
-                        <div class="center"> <img src="<?php echo $staff_img; ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($staff_img == "") {
+                                                echo "/default/default_pic.jpg";
+                                            } else {
+                                                echo $staff_img;
+                                            }
+
+                                            ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($staff_ava == 'Available') : ?>
@@ -471,7 +495,15 @@
                             <h5 class="text-white mt-0"><span style="color:#ffd400; text-transform:uppercase;"><?php echo $division_name; ?></span><br> DIVISION</h5>
                         </div>
                         <hr>
-                        <div class="center"> <img src="<?php echo $staff_img; ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($staff_img == "") {
+                                                echo "/default/default_pic.jpg";
+                                            } else {
+                                                echo $staff_img;
+                                            }
+
+                                            ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($staff_ava == 'Available') : ?>
@@ -604,7 +636,15 @@
                             <h5 class="text-white mt-0"><span style="color:#ffd400; text-transform:uppercase;"><?php echo $division_name; ?></span><br> DIVISION</h5>
                         </div>
                         <hr>
-                        <div class="center"> <img src="<?php echo $staff_img; ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($staff_img == "") {
+                                                echo "/default/default_pic.jpg";
+                                            } else {
+                                                echo $staff_img;
+                                            }
+
+                                            ?>" style="width: 120px;height:120px;" class="rounded-circle"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($staff_ava == 'Available') : ?>
