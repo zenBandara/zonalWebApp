@@ -103,7 +103,14 @@ $row_sch = $result_sch->fetch_array();
                 <div class="row g-0">
                     <div class="col-lg-12 col-sm-12">
                         <a class="portfolio-box" href="<?php echo $row_sch['sch_img']; ?>" title="Image of <?php echo $row_sch['sch_name']; ?>">
-                            <img class="img-fluid" style="width: 100vw; height:40vh;" src="<?php echo $row_sch['sch_img']; ?>" alt="Image of <?php echo $row_sch['sch_name']; ?>" />
+                            <img class="img-fluid" style="width: 100vw; height:40vh;" src="<?php
+                                                                    if ($row_sch['sch_img'] == "") {
+                                                                        echo "/default/default_school.png";
+                                                                    } else {
+                                                                        echo $row_sch['sch_img'];
+                                                                    }
+
+                                                                    ?>" alt="Image of <?php echo $row_sch['sch_name']; ?>" />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50"><?php echo $row_sch['census_no']; ?>: Cover Image</div>
                                 <div class="project-name"><?php echo $row_sch['sch_name']; ?> (Click here to view)</div>
