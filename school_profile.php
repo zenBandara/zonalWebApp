@@ -5,64 +5,64 @@
 require_once 'php_action/db_connect_client.php';
 
 if (isset($_GET['censusno'])) {
-$census_no = $mysqli->real_escape_string($_GET['censusno']);
-$sql = "SELECT * FROM school WHERE census_no= $census_no;";
-$result_sch = $mysqli->query($sql) or header("location:".$query_err_page);
-$row_sch = $result_sch->fetch_array();
+    $census_no = $mysqli->real_escape_string($_GET['censusno']);
+    $sql = "SELECT * FROM school WHERE census_no= $census_no;";
+    $result_sch = $mysqli->query($sql) or header("location:" . $query_err_page);
+    $row_sch = $result_sch->fetch_array();
 ?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Zonal Education Office - Katugastota">
-    <meta name="description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>.">
-    <meta name="keywords" content="<?php echo $row_sch['sch_name']; ?>">
-    <meta name="robots" content="index, follow">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Zonal Education Office - Katugastota">
+        <meta name="description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>.">
+        <meta name="keywords" content="<?php echo $row_sch['sch_name']; ?>">
+        <meta name="robots" content="index, follow">
 
-    <!-- Open graph data -->
-    <meta name="og:title" property="og:title" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>">
-    <meta property="og:url" content="<?php echo $domain_name; ?>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>." />
-    <meta property="og:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
+        <!-- Open graph data -->
+        <meta name="og:title" property="og:title" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>">
+        <meta property="og:url" content="<?php echo $domain_name; ?>" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>." />
+        <meta property="og:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
 
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="School : <?php echo $row_sch['sch_name']; ?>" />
-    <meta name="twitter:card" content="School Profile of <?php echo $row_sch['sch_name']; ?>" />
-    <meta name="twitter:description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>." />
-    <meta name="twitter:url" content="<?php echo $domain_name; ?>" />
-    <meta name="twitter:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
+        <!-- Twitter Cards -->
+        <meta name="twitter:title" content="School : <?php echo $row_sch['sch_name']; ?>" />
+        <meta name="twitter:card" content="School Profile of <?php echo $row_sch['sch_name']; ?>" />
+        <meta name="twitter:description" content="Welcome to the School Profile of <?php echo $row_sch['sch_name']; ?>. The <?php echo $row_sch['sch_name']; ?> is the school that belongs to Katugastota Education Zone, Sri Lanka. And <?php echo $row_sch['sch_name']; ?> is supervising under the <?php echo $row_sch['sch_div']; ?> division, Sri Lanka.  The name of the current principal is <?php echo $row_sch['principal_title'] . ' ' . $row_sch['sch_principal']; ?>. Moreover, the <?php echo $row_sch['sch_name']; ?> is under the type of <?php echo $row_sch['sch_type']; ?>. Furthermore, <?php echo $row_sch['sch_name']; ?> has grades from <?php echo $row_sch['sch_grades']; ?>. Visit here to check more information about the <?php echo $row_sch['sch_name']; ?>." />
+        <meta name="twitter:url" content="<?php echo $domain_name; ?>" />
+        <meta name="twitter:image" content="<?php echo $domain_name; ?>includes/cardPhoto/card.webp" />
 
-    <title><?php echo $row_sch['sch_name']; ?></title>
+        <title><?php echo $row_sch['sch_name']; ?></title>
 
-    <style>
-        .gal:hover {
-            border: 1em #fff solid;
-            transition: .5s ease-out;
-            opacity: 0.7;
-        }
+        <style>
+            .gal:hover {
+                border: 1em #fff solid;
+                transition: .5s ease-out;
+                opacity: 0.7;
+            }
 
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
 
-        div.sticker {
-            position: -webkit-sticky;
-            position: sticky;
-            top: 0;
+            div.sticker {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
 
 
-        }
-    </style>
+            }
+        </style>
 
-    <?php require_once 'nav.php'; ?>
-    <?php
+        <?php require_once 'nav.php'; ?>
+        <?php
 
-   
+
 
 
 
@@ -70,7 +70,7 @@ $row_sch = $result_sch->fetch_array();
         if ($row_sch['sch_name'] == "") {
             header("location:school_list.php?division=all");
         }
-    ?>
+        ?>
 
 
 
@@ -102,15 +102,22 @@ $row_sch = $result_sch->fetch_array();
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-12 col-sm-12">
-                        <a class="portfolio-box" href="<?php echo $row_sch['sch_img']; ?>" title="Image of <?php echo $row_sch['sch_name']; ?>">
-                            <img class="img-fluid" style="width: 100vw; height:40vh;" src="<?php
-                                                                    if ($row_sch['sch_img'] == "") {
-                                                                        echo "/default/default_school.png";
-                                                                    } else {
-                                                                        echo $row_sch['sch_img'];
-                                                                    }
+                        <a class="portfolio-box" href="<?php
+                                                        if ($row_sch['sch_img'] == "") {
+                                                            echo "/default/default_sch_cover.png";
+                                                        } else {
+                                                            echo $row_sch['sch_img'];
+                                                        }
 
-                                                                    ?>" alt="Image of <?php echo $row_sch['sch_name']; ?>" />
+                                                        ?>" title="Image of <?php echo $row_sch['sch_name']; ?>">
+                            <img class="img-fluid" style="width: 100vw; height:40vh;" src="<?php
+                                                                                            if ($row_sch['sch_img'] == "") {
+                                                                                                echo "/default/default_sch_cover.png";
+                                                                                            } else {
+                                                                                                echo $row_sch['sch_img'];
+                                                                                            }
+
+                                                                                            ?>" alt="Image of <?php echo $row_sch['sch_name']; ?>" />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50"><?php echo $row_sch['census_no']; ?>: Cover Image</div>
                                 <div class="project-name"><?php echo $row_sch['sch_name']; ?> (Click here to view)</div>
@@ -261,7 +268,7 @@ $row_sch = $result_sch->fetch_array();
                         <br>
                         <?php
                         $sql = "SELECT * FROM evaluation,school WHERE evaluation.sch_name = school.sch_name and school.census_no= $census_no;";
-                        $result = $mysqli->query($sql) or header("location:".$query_err_page);
+                        $result = $mysqli->query($sql) or header("location:" . $query_err_page);
                         $row = $result->fetch_array();
                         include "graph_module_schprof.php";
                         ?>
@@ -288,5 +295,5 @@ $row_sch = $result_sch->fetch_array();
 
 </html>
 <?php } else {
-        header("location:school_list.php?division=all");
-    } ?>
+    header("location:school_list.php?division=all");
+} ?>
