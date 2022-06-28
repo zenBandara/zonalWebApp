@@ -94,7 +94,15 @@
                         ?>
 
 
-                        <div class="center"> <img src="<?php echo $row_head['staff_img']; ?>" style="width: 12rem; height:12rem; border-radius:50%"> </div>
+                        <div class="center"> <img src="
+                        <?php
+                                            if ($row['sch_img'] == "") {
+                                                echo "/default/default_school.png";
+                                            } else {
+                                                echo $row_head['staff_img'];
+                                            }
+
+                                            ?>" style="width: 12rem; height:12rem; border-radius:50%"> </div>
                         <div class="text-center mt-3">
                             <?php
                             if ($row_head['staff_ava'] == 'Available') : ?>
