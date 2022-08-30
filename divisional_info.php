@@ -125,14 +125,14 @@
                                 <p class="fonts" style="text-align: justify;"></p>
                             </div> -->
                                 <div>
-                                    <a style="color: #fff;" data-toggle="collapse" href="#col<?= $branch ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    <a style="color: #fff;" data-toggle="collapse" href="#col<?php echo $branch; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <strong>▼ Description</strong> <i>(Click here to see)</i>
                                     </a>
 
                                 </div>
-                                <div class="collapse" id="col<?= $branch ?>">
+                                <div class="collapse" id="col<?php echo $branch; ?>">
 
-                                    <div style="color: #661414;" class="card card-body notranslate ">
+                                    <div style="color: #661414;" class="card card-body notranslate">
                                         <?php echo  $row_head['staff_des']; ?>
 
                                     </div>
