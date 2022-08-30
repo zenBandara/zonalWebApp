@@ -133,7 +133,7 @@
                                 <div class="collapse" id="colx<?php echo $division; ?>">
 
                                     <div style="color: #661414;" class="card card-body notranslate">
-                                        <?php echo  $row_head['staff_des']; ?>
+                                        nbmancb anfbmada adhfvaf 
 
                                     </div>
                                 </div>
