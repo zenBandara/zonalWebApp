@@ -80,7 +80,7 @@
 
                 ?>
 
-                    <div class="col-md-4" id="<?= $branch ?>">
+                    <div class="col-md-4" id="<?= $division ?>">
                         <div class="card p-3 py-4 bg-primary text-light" style="margin-bottom: 1em;">
                             <div class="text-center">
                                 <h4 class="text-white mt-0" style="text-transform:capitalize;"><span style="color:#ffd400; text-transform:capitalize"><?= strtoupper($division); ?></span> DIVISION</h4>
@@ -128,16 +128,30 @@
                                     <a style="color: #fff;" data-toggle="collapse" href="#colx<?php echo $division; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <strong>▼ Description</strong> <i>(Click here to see)</i>
                                     </a>
-<!-- changed -->
+                                    <!-- changed -->
                                 </div>
                                 <div class="collapse" id="colx<?php echo $division; ?>">
 
                                     <div style="color: #661414;" class="card card-body notranslate">
-                                        nbmancb anfbmada adhfvaf 
+                                        <?php echo $row_head['staff_des']; ?>
 
                                     </div>
                                 </div>
-                                
+
+                                <div>
+                                    <a style="color: #fff;" data-toggle="collapse" href="#colu<?php echo $division; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                        <strong>▼ Description</strong> <i>(Click here to see)</i>
+                                    </a>
+
+                                </div>
+                                <div class="collapse" id="colu<?php echo $division; ?>">
+
+                                    <div style="color: #661414;" class="card card-body notranslate ">
+                                    <?php echo $row_head['staff_des']; ?>
+
+                                    </div>
+                                </div>
+
                                 <div>
 
                                     <p>
