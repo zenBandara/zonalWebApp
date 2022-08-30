@@ -124,20 +124,7 @@
                                 <!-- <div class="px-4 mt-1" style="color: rgba(255, 255, 255, 0.75);">
                                 <p class="fonts" style="text-align: justify;"></p>
                             </div> -->
-                                <div>
-                                    <a style="color: #fff;" data-toggle="collapse" href="#colx<?php echo $division; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                        <strong>▼ Description</strong> <i>(Click here to see)</i>
-                                    </a>
-                                    <!-- changed -->
-                                </div>
-                                <div class="collapse" id="colx<?php echo $division; ?>">
-
-                                    <div style="color: #661414;" class="card card-body notranslate">
-                                        <?php echo $row_head['staff_des']; ?>
-
-                                    </div>
-                                </div>
-
+                               
                                 <div>
                                     <a style="color: #fff;" data-toggle="collapse" href="#colu<?php echo $division; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <strong>▼ Description</strong> <i>(Click here to see)</i>
