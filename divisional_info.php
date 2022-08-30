@@ -128,7 +128,7 @@
                                     <a style="color: #fff;" data-toggle="collapse" href="#colx<?php echo $division; ?>" role="button" aria-expanded="false" aria-controls="collapseExample">
                                         <strong>▼ Description</strong> <i>(Click here to see)</i>
                                     </a>
-
+<!-- changed -->
                                 </div>
                                 <div class="collapse" id="colx<?php echo $division; ?>">
 
